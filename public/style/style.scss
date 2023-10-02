@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrap{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #EEEFF1;
+
+    header{
+        width: 100%;
+        height: 10vh;
+        // background-color: red;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+        nav{
+            width: 50%;
+            display: flex;
+            justify-content: space-evenly;
+
+            a{
+                text-decoration: none;
+                color: #000;
+            }
+        }
+        #basket{
+            margin-top: 60px;
+        }
+
+        button{
+            width: 150px;
+            height: 30px;
+            background-color: #000;
+            color: #fff;
+            border-radius: 20px;
+        }
+    }
+    main{
+        width: 100%;
+        height: 90vh;
+        display: flex;
+        align-items: center;
+
+        .leftMain{
+            width: 50%;
+            height: 90vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-evenly;
+
+            h1{
+                font-size: 96px;
+                
+            }
+            .miniLogo{
+                // width: 100px;
+                // height: 100px;
+                position: relative;
+                bottom: 110px;
+                left: 80px;
+            }
+            p{
+                // margin-top: 20px;
+                color: #333;
+                // font-size: 24px;
+            }
+            .buttonBlock{
+                display: flex;
+                align-items: center;
+                justify-content: space-evenly;
+                width: 50%;
+                margin-top: 20px;
+
+
+
+                .downloadApp{
+                    width: 150px;
+                    height: 30px;
+                    background-color: #000;
+                    color: #fff;
+                    border: none;
+                    border-radius: 20px;
+                }
+                .shopCoffee{
+                    font-size: 24px;
+                    text-decoration: underline;
+                }
+
+            }
+         
+        }
+
+        .rightMain{
+            width: 50%;
+            height: 90vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            // background-image: url(../img/homeRightMain.png);
+            // background-size: cover;
+
+            img{
+                width: 100%;
+                height: 90vh;
+            }
+
+
+        }
+    }
+}
