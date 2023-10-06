@@ -10,7 +10,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #EEEFF1;
+  justify-content: space-between;
 }
 .wrap header {
   width: 100%;
@@ -44,7 +44,7 @@
   display: flex;
   align-items: center;
 }
-.wrap main .leftMain {
+.wrap main .rightMain {
   width: 50%;
   height: 90vh;
   display: flex;
@@ -52,47 +52,17 @@
   align-items: center;
   justify-content: space-evenly;
 }
-.wrap main .leftMain h1 {
-  font-size: 96px;
+.wrap main .rightMain h1 {
+  font-size: 56px;
 }
-.wrap main .leftMain .miniLogo {
-  position: relative;
-  bottom: 110px;
-  left: 80px;
+.wrap main .rightMain p {
+  font-size: 20px;
 }
-.wrap main .leftMain .miniLogo a {
-  width: 100%;
-}
-.wrap main .leftMain p {
-  color: #333;
-}
-.wrap main .leftMain .buttonBlock {
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-  width: 50%;
-  margin-top: 20px;
-}
-.wrap main .leftMain .buttonBlock .downloadApp {
+.wrap main .rightMain button {
   width: 150px;
-  height: 30px;
+  height: 40px;
   background-color: #000;
   color: #fff;
   border: none;
   border-radius: 20px;
-}
-.wrap main .leftMain .buttonBlock .shopCoffee {
-  font-size: 24px;
-  text-decoration: underline;
-}
-.wrap main .rightMain {
-  width: 50%;
-  height: 90vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.wrap main .rightMain img {
-  width: 100%;
-  height: 90vh;
-}/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=order.css.map */
