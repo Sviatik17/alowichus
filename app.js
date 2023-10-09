@@ -20,6 +20,9 @@ app.get('/order',(req,res)=>{
 app.get('/best',(req,res)=>{
     res.sendFile(path.join(__dirname,'public','best.html'))
 })
+app.get('/instant',(req,res)=>{
+    res.sendFile(path.join(__dirname,'public','instant.html'))
+})
 
 app.listen(PORT,()=>{
     console.log(`Server is runnig at http:localhost:${PORT}`)

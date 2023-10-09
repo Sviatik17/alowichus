@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.wrap header {
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.wrap header nav {
+  width: 50%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.wrap header nav a {
+  text-decoration: none;
+  color: #000;
+}
+.wrap header #basket {
+  margin-top: 60px;
+}
+.wrap header button {
+  width: 150px;
+  height: 30px;
+  background-color: #000;
+  color: #fff;
+  border-radius: 20px;
+}
+.wrap main {
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+}
+.wrap main .leftMain {
+  width: 50%;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.wrap main .leftMain h1 {
+  font-size: 50px;
+}
+.wrap main .leftMain p {
+  color: #555;
+  margin: 50px;
+}
+.wrap main .leftMain button {
+  width: 200px;
+  height: 50px;
+  background-color: #000;
+  border: none;
+  border-radius: 30px;
+  color: #fff;
+}
+.wrap main .rightMain {
+  width: 50%;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.wrap main .rightMain img {
+  height: 90vh;
+}/*# sourceMappingURL=instant.css.map */
