@@ -23,6 +23,9 @@ app.get('/best',(req,res)=>{
 app.get('/instant',(req,res)=>{
     res.sendFile(path.join(__dirname,'public','instant.html'))
 })
+app.get('/feedback',(req,res)=>{
+    res.sendFile(path.join(__dirname,'public','feedback.html'))
+})
 
 app.listen(PORT,()=>{
     console.log(`Server is runnig at http:localhost:${PORT}`)
