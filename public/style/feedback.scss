@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: unbounded;
 }
 
 .wrap{
@@ -10,6 +11,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: #EEEFF1;
 
 
     
@@ -62,6 +64,7 @@
                 border-radius: 20px;
                 box-shadow: 0 0 15px 3px #555;
                 background-color: #fff;
+                
 
                 .box{
                     width: 100%;
@@ -77,20 +80,23 @@
                     color: #333;
                     font-size: 15px;
                     margin-top: 20px;
+                    margin-left: 10px;
+                    
                     
                 }
             }
         }
         .rightMain{
             width: 50%;
-            height: 55vh;
+            height: 90vh;
             display: flex;
             flex-direction: column;
             align-items: center;
-            justify-content: space-evenly;
+            justify-content: flex-start;
 
             h1{
                 font-size: 56px;
+                margin-top: 30px;
             }
 
             .rating{
@@ -98,6 +104,7 @@
                 display: flex;
                 align-items: center;
                 justify-content: space-evenly;
+                margin: 30px;
 
                 .number{
                     font-size: 36px;
@@ -110,5 +117,11 @@
                 }
             }
         }
+    }
+    .greenCup{
+        height: 450px;
+        position: relative;
+        bottom: 350px;
+        left: 538px;
     }
 }

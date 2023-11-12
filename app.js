@@ -27,6 +27,10 @@ app.get('/feedback',(req,res)=>{
     res.sendFile(path.join(__dirname,'public','feedback.html'))
 })
 
+app.get('/footer',(req,res)=>{
+    res.sendFile(path.join(__dirname,'public','footer.html'))
+})
+
 app.listen(PORT,()=>{
     console.log(`Server is runnig at http:localhost:${PORT}`)
 })

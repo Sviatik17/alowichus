@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: unbounded;
+}
+
+.wrap {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #EEEFF1;
+}
+.wrap header {
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.wrap header nav {
+  width: 50%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.wrap header nav a {
+  text-decoration: none;
+  color: #000;
+}
+.wrap header #basket {
+  margin-top: 60px;
+}
+.wrap header button {
+  width: 150px;
+  height: 30px;
+  background-color: #000;
+  color: #fff;
+  border-radius: 20px;
+}
+.wrap main {
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+}
+.wrap main .leftMain {
+  width: 50%;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.wrap main .leftMain .topBlock img {
+  width: 200px;
+  margin-bottom: 20px;
+}
+.wrap main .leftMain .topBlock p {
+  font-size: 18px;
+  color: #333;
+}
+.wrap main .leftMain .bottomBlock {
+  height: 35%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-evenly;
+}
+.wrap main .leftMain .bottomBlock .findBlock {
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.wrap main .rightMain {
+  width: 50%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.wrap main .rightMain .topBlock {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.wrap main .rightMain .topBlock .contactBlock {
+  display: flex;
+  flex-direction: column;
+}
+.wrap main .rightMain .topBlock .contactBlock .email {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.wrap main .rightMain .topBlock .contactBlock .email img {
+  width: 100px;
+  margin-top: 20px;
+}
+.wrap main .rightMain .topBlock .contactBlock .phone {
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+.wrap main .rightMain .topBlock .contactBlock .phone img {
+  width: 100px;
+  margin-top: 20px;
+}
+.wrap main .rightMain .topBlock .contactBlock .social img {
+  width: 100px;
+}
+.wrap main .rightMain .bottomBlock {
+  width: 100%;
+  height: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.wrap main .rightMain .bottomBlock input {
+  height: 40px;
+  border: none;
+  border-radius: 20px;
+  padding-left: 10px;
+  box-shadow: 0 0 15px 3px #555;
+}
+.wrap main .rightMain .bottomBlock button {
+  height: 40px;
+  width: 100px;
+  border: none;
+  background-color: #000;
+  border-radius: 20px;
+  color: #fff;
+}/*# sourceMappingURL=footer.css.map */
