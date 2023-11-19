@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="./style/footer.css">
     <link rel="icon" href="./img/coffeLogo.png">
     <link href="https://fonts.googleapis.com/css?family=Unbounded:200,300,regular,500,600,700,800,900" rel="stylesheet" />
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/axios/1.6.1/axios.js' integrity='sha512-58Cj9pM2ndGHIIY58rq330v1/LuFmUBapU2f7LQjEy0WGTsCkVsF02MFcMsKP31lKwEWOEyygaj7vlXUOpJyUw==' crossorigin='anonymous'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.js' integrity='sha512-+k1pnlgt4F1H8L7t3z95o3/KO+o78INEcXTbnoJQ/F2VqDVhWoaiVml/OEHv9HsVgxUaVW+IbiZPUJQfF/YxZw==' crossorigin='anonymous'></script>
 </head>
 <body>
     <div class="wrap">
@@ -63,13 +65,17 @@
 
                <div class="bottomBlock">
                 <h3>First One’s On Us!</h3>
-                <input type="text" placeholder="Email">
-                <button>Subscribe</button>
+                <form id="myForm" onsubmit="saveEmail();return false" >
+                    <input type="text" placeholder="Email" id="email" name="email">
+                    <button type="submit" id="SubmitBtn">Subscribe</button>
+                </form>
+              
                </div>
                
             </div>
            
         </main>
     </div>
+    <script src="./main.js"></script>
 </body>
 </html>
