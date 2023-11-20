@@ -64,7 +64,7 @@ app.post('/saveemail',(req,res)=>{
         from:'google@admin.com',
         to:`${email}`,
         subject:'Вітання!',
-        text:'Вітаємо'
+        text:'Вітаємо в нвшій компанії.Насолджуйтесь нашою кавою.Дякуємо за підписку'
     }
     transporter.sendMail(mailOPtions,(err,data)=>{
         if(err){
